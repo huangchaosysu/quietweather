@@ -32,12 +32,9 @@ Page({
     setting: {},
     bcgImgList: [
       '/img/backlit-dawn-dusk-327466.jpg',
-      '/img/back-view-beautiful-bloom-906002.jpg',
-      '/img/afterglow-background-beautiful-552791.jpg',
-      '/img/animal-aquatic-corals-847393.jpg',
-      '/img/background-clouds-countryside-733031.jpg',
-      '/img/beach-calm-clouds-457882.jpg',
-      '/img/beautiful-cold-dawn-547115.jpg'
+      '/img/morning.jpg',
+      '/img/sky.jpg',
+      '/img/stars.jpg'
     ],
     bcgImgIndex: 0,
     bcgImg: '',

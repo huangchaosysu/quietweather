@@ -16,7 +16,7 @@ let messages = () => {
     case 15:
     case 16:
     case 17:
-      return '下午好，长时间敲代码，能让你的腰间盘更加突出噢'
+      return '下午好，长时间坐着，能让你的腰间盘更加突出噢'
     case 18:
     case 19:
       return '还没下班？不要担心，以后这样的日子还多得是呢'

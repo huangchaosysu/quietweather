@@ -12,7 +12,7 @@ App({
     keepscreenon:false,
     systeminfo: {},
     isIPhoneX: false,
-    ak: 'your baidu map application ak',
+    ak: '0lUBoiWifu5G0XUWGvE0NzCB0G4too5X',
   },
   setGeocoderUrl (address) {
     return `https://api.map.baidu.com/geocoder/v2/?address=${address}&output=json&ak=${this.globalData.ak}`

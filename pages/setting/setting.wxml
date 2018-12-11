@@ -42,16 +42,6 @@
     </view>
     <!-- 小工具 -->
     <view class='t'>
-      <view class='title'>
-        <view>小工具</view>
-      </view>
-      <view class='content sub'>
-        <view class='subtitle'>NFC</view>
-        <view class='item' catchtap='getHCEState'>
-          <view>检测是否支持NFC</view>
-          <image class='more' src='/img/arrow.png'></image>
-        </view>
-      </view>
       <view class='content sub'>
         <view class='subtitle'>屏幕亮度</view>
         <view class='item'>
@@ -67,22 +57,6 @@
             <slider value='{{screenBrightness}}' min='0' max='100' step='1' block-size='12' block-color='#40a7e7' activeColor='#40a7e7' show-value='true' bindchanging='screenBrightnessChanging'></slider>
           </view>
           <!-- <view>设置屏幕亮度</view> -->
-        </view>
-        <view class='item'>
-          <view>
-            <view>保持常亮</view>
-            <view class='tip'>仅在当前小程序、当次生效，离开小程序后设置失效</view>
-          </view>
-          <switch color='#40a7e7' bindchange='switchChange' data-switchparam='keepscreenon' checked='{{keepscreenon}}'></switch>
-        </view>
-      </view>
-      <view class='content sub'>
-        <view class='subtitle'>系统信息</view>
-        <view class='item'catchtap='getsysteminfo'>
-          <view>
-            <view>查看系统信息</view>
-          </view>
-          <image class='more' src='/img/arrow.png'></image>
         </view>
       </view>
     </view>

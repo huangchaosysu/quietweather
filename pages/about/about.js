@@ -1,14 +1,7 @@
 let utils = require('../../utils/utils')
 Page({
   data: {
-    projectAddress: 'https://github.com/myvin/quietweather',
-    github: 'https://github.com/myvin',
-    email: '851399101@qq.com',
-    qq: '851399101',
     swiperHeight: 'auto',
-    bannerImgList: [
-      'https://raw.githubusercontent.com/myvin/miniprogram/master/quietweather/images/logo.png',  'https://raw.githubusercontent.com/myvin/miniprogram/master/quietweather/images/miniqrcode.jpg',
-    ],
   },
   onLoad () {
     this.initSwiper()
@@ -26,16 +19,6 @@ Page({
     })
   },
   initSwiper () {
-    let systeminfo = getApp().globalData.systeminfo
-    if (utils.isEmptyObject(systeminfo)) {
-      wx.getSystemInfo({
-        success: (res) => {
-          this.setSwiperHeight(res)
-        },
-      })
-    } else {
-      this.setSwiperHeight(systeminfo)
-    }
   },
   setSwiperHeight (res) {
     this.setData({
