@@ -402,7 +402,7 @@ Page({
   },
   onShareAppMessage (res) {
     return {
-      title: 'Quiet Weather--安静天气',
+      title: '雷公天气',
       path: `/pages/index/index`,
       // imageUrl: '',
       success() {},
