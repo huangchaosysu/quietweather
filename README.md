@@ -1,11 +1,8 @@
 # 随手查天气
 一款天气应用微信小程序
 <p align='center'>
-    ![](/img/weather.png)
+    <img src='https://github.com/huangchaosysu/quietweather/blob/master/img/weather.jpg'>
 </p>
-
-## 新版首页(可选择内置背景)
-<img src='https://raw.githubusercontent.com/myvin/miniprogram/master/quietweather/images/screenshot_1_new.png' style='width:300px;'>
 
 ## 截图
 <div >
