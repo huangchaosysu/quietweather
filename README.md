@@ -1,4 +1,4 @@
-# 随手查天气
+# 雷公天气
 一款天气应用微信小程序
 <p align='center'>
     <img src='https://github.com/huangchaosysu/quietweather/blob/master/img/weather.jpg'>
