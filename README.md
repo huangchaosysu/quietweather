@@ -1,7 +1,7 @@
 # 随手查天气
 一款天气应用微信小程序
 <p align='center'>
-    <img src='https://user-gold-cdn.xitu.io/2018/7/5/1646880a97f2c931?w=344&h=344&f=jpeg&s=66247'>
+    ![](/img/weather.png)
 </p>
 
 ## 新版首页(可选择内置背景)
@@ -25,14 +25,5 @@
 > * Run and Enjoy!
 
 ## 请喝咖啡
-如果我的项目对你有帮助，可以请我喝杯咖啡噢~
 
-### 支付宝
-
-> 省事的可以先扫码领红包，然后扫支付宝将红包支付给我（商家）~
-
-<img src="https://raw.githubusercontent.com/myvin/miniprogram/master/9181893579988_.pic_hd.jpg" width="300" /> <img src="https://raw.githubusercontent.com/myvin/miniprogram/master/9191893579989_.pic.jpg" width="300" />
-
-### 微信
-
-<img src="https://raw.githubusercontent.com/myvin/miniprogram/master/9201893579990_.pic_hd.jpg" width="300" />
+如果你觉得这个项目对你有用不妨帮我转发个朋友圈宣传一下.
